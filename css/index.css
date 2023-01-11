@@ -1,0 +1,52 @@
+.top-nav{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    font-family: "Microsoft Yahei";
+    background-color: rgba(30, 33, 35, 0.8); 
+}
+body{
+    height: 3000px;
+}
+.bj video{
+    width: 100%;
+}
+.top-nav .logo{
+    width: 393px;
+    height: 93px;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+.top-nav .logo2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.top-nav .nav-box{
+    width: 1010px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 98px;
+    background-color: rgb(197, 228, 228);
+}
+/* 各大模块 */
+.nav-link .link-item {
+    width: 500px;
+    display: flex;
+}
+.nav-link .link-item a{
+    flex: 25%;
+}
+.link-li{
+    display: flex;
+    flex-direction: column;
+}
